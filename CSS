@@ -1,0 +1,39 @@
+// CSS notes
+
+3 types of CSS - Internal,External,Inline
+1) Inline CSS 
+- <html style = "background:blue">
+</html>
+
+- style is NAME
+- background is PROPERTY and blue is VALUE of the PROPERTY
+
+2) Internal CSS
+<html>
+  <head>
+    <style>
+      html{
+          background:red;
+          }
+    </style>
+  </head>
+</html>
+
+-Only for single-page websites
+-for multiple-page websites use external css;
+
+3)External CSS
+<html>
+  <head>
+    <link>
+        rel = "stylesheet"
+        href ="./styles.css"
+    />
+  </head>
+</html>
+
+-------------------------------------x----------------------------------------
+
+
+
+
